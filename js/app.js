@@ -152,7 +152,7 @@ var getUnanswered = function(tags) {
 	});
 };
 
-
+// call out functions once the document is loaded 
 $(document).ready( function() {
 	$('.unanswered-getter').submit( function(e){
 		e.preventDefault();
